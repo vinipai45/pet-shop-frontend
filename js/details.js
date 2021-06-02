@@ -135,7 +135,7 @@ const displaySpinner = () => {
 
 window.onload = () => {
     if (localStorage.getItem('token') == null) {
-        window.location.replace('login.html')
+        window.location.replace('../html/login.html')
     }
 
     const params = new URLSearchParams(window.location.search)

@@ -101,7 +101,7 @@ const saveDetails = () => {
 
 window.onload = () => {
     if (localStorage.getItem('token') == null) {
-        window.location.replace('login.html')
+        window.location.replace('../html/login.html')
     }
 
     email.value = 'loading...'

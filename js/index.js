@@ -127,7 +127,7 @@ signoutButton.onclick = () => {
 
 window.onload = () => {
     if (localStorage.getItem('token') == null) {
-        window.location.replace('login.html')
+        window.location.replace('../html/login.html')
     }
 
     console.log(localStorage.getItem('name'));
