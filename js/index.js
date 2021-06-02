@@ -14,7 +14,7 @@ const displayCard = (data) => {
     let cardHtml = '';
     data.map(product => {
         const card = `
-            <div class="card col-sm-6 col-md-4 col-lg-3 style="width:10%">
+            <div class="card col-xs-6 col-sm-6 col-md-4 col-lg-3 style="width:10%">
                 <img src="${product.photo}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${product.name}</h5>
@@ -32,7 +32,7 @@ const displayCategory = (data) => {
     let categoryHtml = '';
     data.map(category => {
         const icon = `
-            <i id="${category._id}" onclick="getProductByCategory(this.id)" class="fas fa-3x fa-${category.name}" style="width:5%"></i>
+            <i id="${category._id}" onclick="getProductByCategory(this.id)" class="fas fa-3x fa-${category.name}"></i>
         `;
         categoryHtml += icon;
     })
