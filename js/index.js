@@ -42,7 +42,7 @@ const displayCategory = (data) => {
 }
 
 const byNow = (id) => {
-    window.location.href = 'details.html?id=' + id;
+    window.location.href = '../html/details.html?id=' + id;
 }
 
 const displayRelatedCards = (data) => {
@@ -116,13 +116,13 @@ search.onsubmit = (e) => {
 
 username.onclick = () => {
     console.log("clicked username");
-    window.location.href = 'account.html?id=' + localStorage.getItem('_id')
+    window.location.href = '../hmtl/account.html?id=' + localStorage.getItem('_id')
 }
 
 signoutButton.onclick = () => {
 
     localStorage.clear();
-    window.location.replace("login.html")
+    window.location.replace("../html/login.html")
 }
 
 window.onload = () => {

@@ -121,7 +121,7 @@ const displayRelatedCards = (data) => {
 }
 
 const byNow = (id) => {
-    window.location.href = 'details.html?id=' + id;
+    window.location.href = '../html/details.html?id=' + id;
 }
 
 const displaySpinner = () => {
