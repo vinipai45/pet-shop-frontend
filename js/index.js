@@ -115,8 +115,7 @@ search.onsubmit = (e) => {
 }
 
 username.onclick = () => {
-    console.log("clicked username");
-    window.location.href = '../hmtl/account.html?id=' + localStorage.getItem('_id')
+    window.location.href = '../html/account.html?id=' + localStorage.getItem('_id')
 }
 
 signoutButton.onclick = () => {
