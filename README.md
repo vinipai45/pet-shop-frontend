@@ -1,1 +1,1 @@
-# pet-show-frontend
+# pet-shop-frontend
