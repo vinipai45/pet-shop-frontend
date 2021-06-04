@@ -129,7 +129,6 @@ window.onload = () => {
         window.location.replace('../html/login.html')
     }
 
-    console.log(localStorage.getItem('name'));
     username.innerHTML = localStorage.getItem('name')
 
     displaySpinner()
